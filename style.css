@@ -1,0 +1,106 @@
+body {
+background-color: #d9ebe6;
+font-family: "Century Gothic", Futura, "Trebuchet MS", sans-serif;
+margin: 0;
+padding: 0;
+}
+
+#wrapper {
+width: 960px;
+margin: 0 auto;
+padding: 12px;
+background-color: white;
+overflow: hidden;
+}
+
+#header {
+background-color: #aaf0ee;
+text-align: right;
+padding: 5px 5px 8px 5px;
+margin-bottom: 15px;
+}
+#header h1 {
+margin: 0;
+font-size: 40px;
+font-weight: normal;
+color: #20b2aa;
+}
+#header h3 {
+margin: 0;
+font-size: 22px;
+font-weight: normal;
+color: #20b2aa;
+}
+
+#sidebar {
+float: left;
+width: 190px;
+background-color: #40e0d0;
+border: 8px solid #008b8b;
+padding: 10px 15px;
+margin: 0 10px 0 0;
+}
+#sidebar h2 {
+margin: 5px 0 15px 20px;
+font-size: 36px;
+font-weight: normal;
+color: #20a79d;
+}
+#sidebar ul {
+margin: 0;
+padding-left: 25px;
+}
+#sidebar li {
+margin-bottom: 4px;
+font-family: "Times New Roman", serif;
+font-size: 16px;
+}
+#sidebar a {
+color: #d99a9a;
+text-decoration: none;
+}
+#sidebar .current {
+color: white;
+font-weight: bold;
+}
+
+#content {
+float: right;
+width: 690px;
+}
+
+.entry {
+background-color: #e6fafa;
+border: 5px solid #bfeaea;
+padding: 10px;
+margin-bottom: 15px;
+overflow: hidden;
+color: #c98f8f;
+font-size: 17px;
+line-height: 1.45;
+text-align: justify;
+}
+.entry h2 {
+margin: 0 0 12px 0;
+font-size: 32px;
+font-weight: normal;
+color: #20b2aa;
+}
+.entry p {
+margin: 0;
+}
+
+.date {
+border-bottom: 3px dashed blue;
+color: #20b2aa;
+}
+
+.photo {
+float: right;
+margin: 5px 0 5px 12px;
+border: 1px solid #333;
+}
+
+#entry2 p {
+font-weight: bold;
+}
